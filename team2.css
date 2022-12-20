@@ -1,0 +1,461 @@
+
+/*  ------------ comman styles-----------------------------*/
+
+*{  				margin: 0;
+				    padding: 0;
+					box-sizing: border-box;
+				}
+    
+	
+	
+	.container{ width: 1170px;
+				margin: 0 auto;
+				padding: 0 15px;
+				
+	}	
+	.back{
+		background-color: black;
+		
+	}
+	
+	/*  ------------ comman styles-----------------------------*/
+	
+	/*------------header sect start-----*/
+	.headcont-info{
+		background-color: red;
+		width: 40%;
+		height: 30px;
+	}
+	.headlang-info{
+		background-color:red;
+		width: 20%;
+		height: 30px;
+
+	}
+	.header-sect{
+		display: flex;
+		justify-content: space-between;
+	
+	}
+	.header-sect{
+		padding-bottom: 20px;
+	}
+	/*------------header sect end-----*/
+	
+	/*------------about sect start-----*/
+	
+	.about-sect{
+		display: flex;
+		justify-content: space-between;
+		
+	}
+
+	.about-head{
+		width: 20%;
+		height: 40px;
+		background-color: red;
+	
+	}
+	
+	.about-list{
+		width: 55%;
+		height: 40px;
+		background-color: red;
+	}
+	.about-btn{
+		width:20%;
+		height:40px;
+		background-color: red;	
+	}
+	/*------------about sect end-----*/
+	
+	
+	/*------------well sect start-----*/
+	
+	.well-content{
+		display: flex;
+		justify-content: space-between;
+	
+	}
+	.well-content{
+		
+		padding-top: 20px;
+	}
+	
+	.well-head{
+		width: 55%;
+		height: 200px;
+		background-color: red;
+	}
+	 .well-headbtn{
+		 display: flex;
+		 justify-content: space-around;
+		 align-items: flex-end;
+	 }
+	
+	.wellmenu-btn{
+		width: 40%;
+		height: 30px;
+		background-color: yellow;
+	}
+	.wellbook-btn{
+		width: 40%;
+		height: 30px;
+		background-color: yellow;
+	}
+	.wellplay-btn{
+		width: 40%;
+		height: 200px;
+		background-color: red;
+	}
+	.wellplay-btn{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.wellplay-btn .play-btn{
+		width: 30%;
+		height: 30%;
+		background-color: yellow;
+	}
+	
+	/*------------well  sect end-----*/
+	
+	
+	/*------------volup  sect start-----*/
+	.volup-contimg{
+		display: flex;
+		justify-content:space-between;
+		
+	}
+	.volup-contimg{
+		padding-top: 20px;
+	}
+	
+	.volup-cont{
+		width: 49%;
+		height: 200px;
+		background-color: red;
+	}
+	.volup-img{
+		width: 49%;
+		height: 200px;
+		background-color: red;
+	}
+	/*------------volup  sect end-----*/
+	
+	
+	
+	/*------------why choose  sect start-----*/
+	
+	.why-us{
+		display: flex;
+		flex-wrap:wrap;
+		justify-content: space-between;
+	}
+	.why-us{
+		padding: 20px 0;
+	}
+	.why-ushead{
+		width: 100%;
+		height: 40px;
+		background-color: red;
+		margin-bottom: 20px;
+	}
+
+   .choose-box{
+		width: 30%;
+		height: 150px;
+		background-color: red;
+	}
+ 
+	
+	
+	/*------------why choose  sect end----*/
+	
+	
+	
+	/*------------check our sect start---*/
+		.ckeck-ourmenu{
+						display: flex;
+						flex-wrap:wrap;
+						justify-content: space-between;
+					}
+					
+				
+	.check-head{
+			width: 100%;
+			height: 100px;
+			background-color: red;
+			margin-bottom: 20px;
+			
+	}
+	 .check-menu{
+		width: 40%;
+		height: 30px;
+		background-color: yellow;
+	}
+	 .check-head{
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	.check-box{
+		width: 48%;
+		height: 70px;
+		background-color: red;
+	}
+	.check-box{
+		margin-bottom: 20px;
+	}
+
+	/*------------check our sect end---*/
+	
+	
+	/*------------check speci sect start---*/
+	
+		.check-speci{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.check-speci{
+			padding: 20px 0;
+		}
+		.check-headspeci{
+				width: 100%;
+				height: 40px;
+				background-color: red;
+				
+		}
+		.check-headspeci{
+			margin-bottom: 20px;
+		}
+		.speci-box1{
+			width:29%;
+			height: 100px;
+			background-color: red;
+		}
+		.speci-box2{
+			width:39%;
+			height: 100px;
+			background-color: red;
+		}
+	
+	/*------------check speci sect end---*/
+	
+	/*------------event-org sect start---*/
+	
+	.event-org{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.event-head{
+		width: 100%;
+		height: 40px;
+		background-color: red;
+	}
+	.event-head{
+		margin-bottom: 20px;
+	}
+	.event-img{
+		width: 49%;
+		height: 200px;
+		background-color: red;
+	}
+	.event-cont{
+		width: 49%;
+		height: 200px;
+		background-color: red;
+	}
+	/*------------event-org sect end---*/
+	
+	
+	/*------------book table sect start---*/
+	
+	.table-book{
+		display: flex;
+		flex-wrap: wrap;	
+	}
+	.table{
+		width: 100%;
+		height: 40px;
+		background-color: red;
+		margin: 20px 0;
+	}
+	
+	.table-box{
+		width: 100%;
+		height: 300px;
+		background-color: red;
+		
+		
+		
+	}
+	.table-boxbtn{
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		
+	}
+	.table-btn{
+		width: 20%;
+		height: 50px;
+		background-color: yellow;
+			
+	}
+	/*------------book table sect end---*/
+	
+	/*------------saying-us sect start---*/
+	
+	.saying-us{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.saying-head{
+		width: 100%;
+		height: 40px;
+		background-color: red;
+	}
+	.saying-head{
+		margin: 20px 0;
+	}
+	.saying-box{
+		width: 33%;
+		height: 200px;
+		background-color: red;
+		
+	}
+	/*------------saying-us sect end---*/
+	
+	
+	
+	/*------------some-photo sect start---*/
+	.some-photo{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.photo-head{
+		width: 100%;
+		height: 40px;
+		background-color: red;
+	}
+	.photo-head{
+		margin: 20px 0;
+	}
+	.photos{
+		width: 24%;
+		height: 100px;
+		background-color: red;
+	}
+	
+	.photos{
+		margin-bottom: 5px;
+	}
+	
+	/*------------some-photo sect end---*/
+	
+	
+	
+	/*------------our chef sect start---*/
+	.chef-headphoto{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+	}
+	.chef-head{
+		width: 100%;
+		height: 40px;
+		background-color: red;
+	}
+	.chef-photo{
+		width: 33%;
+		height: 200px;
+		background-color: red;
+	}
+	.chef-photo{
+			margin: 20px 0;
+	}
+	/*------------our chef sect end---*/
+	
+		/*------------contact sect start---*/
+		
+		.contact-headcont{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.contact-head{
+			width: 100%;
+			height: 40px;
+			background-color: red;
+			margin-bottom: 20px;
+		}
+		.contact-map{
+			width: 100%;
+			height: 300px;
+			background-color: red;
+			margin-bottom: 20px;
+		}
+		.contact-loc{
+			width: 39%;
+			height: 200px;
+			background-color: red;
+			margin-bottom: 20px;
+		}
+		.contact-form{
+			width: 59%;
+			height: 200px;
+			background-color: red;
+			padding-bottom: 20px;
+		}
+		.contact-form{
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+		}
+		.contact-formbtn{
+			width: 20%;
+			height: 30px;
+			background-color: yellow;
+		
+		}
+		
+		.cont-address{
+			width: 24%;
+			height: 300px;
+			background-color: red;
+		}
+		.contact-link{
+			width: 16%;
+			height: 300px;
+			background-color: red;
+		}
+		.contact-web{
+			width: 16%;
+			height: 300px;
+			background-color: red;
+		}
+		.contact-sub{
+			width: 40%;
+			height: 300px;
+			background-color: red;
+		}
+		.contact-sub{
+			display: flex;
+			justify-content: center;
+			align-items:end;
+		}
+		.contact-subbtn{
+			width: 30%;
+			height: 30px;
+			background-color: yellow;
+		}
+			/*------------contact sect end---*/
+	
+	
+	
